@@ -1,0 +1,12 @@
+
+.asdf{
+    background-color: black;
+    color: white;
+    border: 4px solid rgb(128, 0, 96);
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+p{
+    align-items: center;
+}

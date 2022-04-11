@@ -1,0 +1,8 @@
+<p>number of times the button has been clicked:{{buttonClicks}} </p>
+
+<button [class]="buttonColor" (click)="clickedButton()"> Click moi</button>
+
+<input type="text" (input)="textDisplay($event)">
+
+
+<p id="textDisplay">{{inputDisplay}}</p>
